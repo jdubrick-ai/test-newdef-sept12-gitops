@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-newdef-sept12-database-config
+data:
+  VECTORDB_HOST: "test-newdef-sept12-database"
+  VECTORDB_PORT: ""
